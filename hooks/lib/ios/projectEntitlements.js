@@ -12,7 +12,7 @@ var plist = require('plist');
 var ConfigXmlHelper = require('../configXmlHelper.js');
 var ASSOCIATED_DOMAINS = 'com.apple.developer.associated-domains';
 var context;
-var projectName;
+var projectName = "App";
 
 module.exports = {
   generateAssociatedDomainsEntitlements: generateEntitlements
